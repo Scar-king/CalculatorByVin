@@ -7,13 +7,20 @@ body {
     background-color: hsl(0, 0%, 95%);
 }
 
+h1 {
+    text-align: center;
+    font-family: "Press Start 2P"  ;
+}
+
 #calculator {
     font-family: Arial, sans-serif;
-    /* background-color: hsl(0, 0%, 15%); */
     background-color: hsl(303, 100%, 58%);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
+    border: 10px solid;
+    border-radius: 15px;
+    border-color: hsl(303, 100%, 58%);
 }
 
 #display {
@@ -21,8 +28,7 @@ body {
     padding: 20px;
     font-size: 5rem;
     text-align: left;
-    /* background-color: hsl(0, 0%, 20%); */
-    background-color: hsl(303, 100%, 70%);
+    background-color: hsl(303, 100%, 75%);
     color: white;
     border: none;
 }
@@ -39,7 +45,6 @@ button {
     height: 100px;
     border-radius: 50px;
     border: none;
-    /* background-color: hsl(0, 0%, 30%); */
     background-color: hsl(297, 100%, 80%);
     color: white;
     font-size: 3rem;
